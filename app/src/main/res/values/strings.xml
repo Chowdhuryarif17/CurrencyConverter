@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="clearButton"> Clear </string>
+    <string name="swapButton"> Swap </string>
+    <string name="converterButton">Convert</string>
+
+    <string-array name="currency_names">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>BDT</item>
+        <item>INR</item>
+        <item>JPY</item>
+
+    </string-array>
+
+
+</resources>
