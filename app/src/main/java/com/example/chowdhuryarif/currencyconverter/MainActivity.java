@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        findViewByIds();
-
+        findViewByIdS(); //all find views here
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.sample_view, R.id.textViewSampleId, currencyNames);
         fromSpinner.setAdapter(adapter);
@@ -35,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         converterButton.setOnClickListener(this);
     }
 
-    void findViewByIds(){
+    void findViewByIdS(){
 
         currencyNames = getResources().getStringArray(R.array.currency_names);
 
