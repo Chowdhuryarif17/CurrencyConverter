@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewByIdS(); //all find views here
 
+        String admin = "admin Branch";
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.sample_view, R.id.textViewSampleId, currencyNames);
         fromSpinner.setAdapter(adapter);
         toSpinner.setAdapter(adapter);
